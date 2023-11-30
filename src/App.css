@@ -3,6 +3,7 @@
   overflow-y: hidden;
 }
 
+/* general css */
 body {
   display: flex;
   height: 100vh;
@@ -12,18 +13,20 @@ body {
   margin: 0;
 }
 
+/* this is the css for the container that the page visits are in */
 .flex-container {
   padding-left: .3125rem;
   padding-right: .3125rem;
   width: fit-content;
   height: 7vh;
   display: flex;
-  justify-content:start;
+  justify-content:flex-start;
   border-radius: 0px 1rem 0px 0px;
   background-color: black;
   margin: 0;
 }
 
+/* making the text look nice */
 .counter{
   color:aliceblue;  
   font-size: 1.15rem;
